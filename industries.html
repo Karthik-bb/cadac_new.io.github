@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Free responsive business website template</title>
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/icons.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+      <!-- CUSTOM STYLE -->      
+      <link rel="stylesheet" href="css/template-style.css">
+      <link href="https://fonts.googleapis.com/css?family=Barlow:100,300,400,700,800&amp;subset=latin-ext" rel="stylesheet">  
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+      <style>
+        /* General Reset */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+    
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #ffffff; /* White background */
+          color: #333333; /* Dark text for visibility */
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          padding: 20px;
+        }
+    
+        /* Header Section */
+        .header {
+          width: 100%;
+          max-width: 1200px;
+          text-align: left;
+          padding: 20px;
+          margin-bottom: 30px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+    
+        .header h1 {
+          font-size: 2.5rem;
+          font-weight: bold;
+          color: #333333;
+        }
+    
+        .header-logo img {
+          max-width: 100px;
+        }
+    
+        /* Industries Section */
+        .industries {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          gap: 30px;
+          width: 100%;
+          max-width: 1200px;
+        }
+    
+        .industry-card {
+          text-align: center;
+          padding: 15px;
+          background-color: #f9f9f9; /* Light gray for card background */
+          border: 1px solid #ddd; /* Subtle border */
+          border-radius: 8px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        }
+    
+        .industry-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    
+        .industry-icon {
+          font-size: 3rem;
+          margin-bottom: 10px;
+          color: #003366; /* Dark blue for icons */
+        }
+    
+        .industry-name {
+          font-size: 1rem;
+          font-weight: 600;
+          color: #333333;
+        }
+    
+        /* Footer Section */
+        .footer {
+          background-color: #003366; /* Dark Blue */
+          color: #ffffff;
+          width: 100%;
+          text-align: center;
+          padding: 15px;
+          font-size: 0.9rem;
+        }
+    
+        .footer a {
+          color: #00cc66; /* Green for email */
+          text-decoration: none;
+        }
+    
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .header h1 {
+            font-size: 2rem;
+          }
+    
+          .industry-icon {
+            font-size: 2.5rem;
+          }
+    
+          .footer {
+            font-size: 0.8rem;
+          }
+        }
+      </style>    
+   </head>
+
+   <!--
+    You can change the color scheme of the page. Just change the class of the <body> tag. 
+    You can use this class: "primary-color-white", "primary-color-red", "primary-color-orange", "primary-color-blue", "primary-color-aqua", "primary-color-dark" 
+    -->
+    
+    <!--
+    Each element is able to have its own background or text color. Just change the class of the element.  
+    You can use this class: 
+    "background-white", "background-red", "background-orange", "background-blue", "background-aqua", "background-primary" 
+    "text-white", "text-red", "text-orange", "text-blue", "text-aqua", "text-primary"
+    -->
+
+   <body class="size-1520 primary-color-red background-dark">
+      <!-- HEADER -->
+      <header class="grid">
+        <!-- Top Navigation -->
+        <nav class="s-12 grid background-none background-primary-hightlight">
+           <!-- logo -->
+           <a href="index.html" class="m-12 l-3 padding-2x logo">
+              <img src="img/cadaclogo.jpg">
+           </a>
+           <div class="top-nav s-12 l-9">
+            <ul class="top-ul right chevron">
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="#">Services</a>
+                <ul>
+                  <li><a href="c&d.html">Cloud and DevOps</a></li>
+                  <li><a href="adt.html">Andriod Development & Testing</a></li>
+                  <li><a href="manual_testing.html">Manual Testing</a></li>
+                  <li><a href="automation_testing.html">Automation Testing</a></li>
+                  <li><a href="wd.html">Web Development</a></li>
+                  <li><a href="sd.html">Software Development</a></li>
+                  <li><a href="testing&qa.html">Testing & QA</a></li>
+                </ul>
+              </li>
+              <li><a href="industries.html">Industries</a>
+                <ul>
+                  <li><a href="#">IT</a></li>
+                  <li><a href="#">Fintech</a></li>
+                  <li><a href="#">Logistics</a></li>
+                  <li><a href="#">Manufacturing</a></li>
+                  <li><a href="#">Healthcare</a></li>
+                  <li><a href="#">Telecom</a></li>
+                  <li><a href="#">E-Learning</a></li>
+                  <li><a href="#">Retail</a></li>
+                  <li><a href="#">Aerospace</a></li>
+                  <li><a href="#">Automotive</a></li>
+                </ul>
+              </li>
+              <li><a href="bgv.html">BG Verification</a>
+                <ul>
+                  <li><a href="bgv.html">Employment Verification</a></li>
+                  <li><a href="bgv.html">Criminal Background Checks</a></li>
+                  <li><a href="bgv.html">Education Verification</a></li>
+                  <li><a href="bgv.html">Address Verification</a></li>
+                  <li><a href="bgv.html">Identity Verification</a></li>
+                  <li><a href="bgv.html">Reference Check</a></li>
+                </ul>
+              </li>
+              <li><a href="about-us.html">Company</a></li>
+              <li><a href="https://medium.com/@cadac">Blogs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      
+      <!-- MAIN -->
+      <main role="main">
+        <!-- TOP SECTION -->
+        <header class="grid">
+        	<div class="s-12 padding-2x">
+            <h1 class="text-strong text-white text-center center text-size-60 text-uppercase margin-bottom-20">Industries We Serve</h1>
+            <p class="text-size-20 text-white text-center center text-uppercase">We serve more than 550 clients globally in various industries<br></p>
+          </div>
+        </header>
+        <!-- Industries Grid -->
+  <div class="industries">
+    <div class="industry-card">
+      <div class="industry-icon">💻</div>
+      <div class="industry-name">IT</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">💰</div>
+      <div class="industry-name">Fin Tech</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">🚚</div>
+      <div class="industry-name">Logistics</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">🏭</div>
+      <div class="industry-name">Manufacturing</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">⚕️</div>
+      <div class="industry-name">Health Care</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">📞</div>
+      <div class="industry-name">Telecom</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">📚</div>
+      <div class="industry-name">E-Learning</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">🛒</div>
+      <div class="industry-name">Retail</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">✈️</div>
+      <div class="industry-name">Aerospace</div>
+    </div>
+    
+    <!-- New Automotive Industry -->
+    <div class="industry-card">
+      <div class="industry-icon">🚗</div>
+      <div class="industry-name">Automotive</div>
+    </div>
+  </div>
+  <!-- SECTION 6 -->
+  <section class="grid margin-bottom">
+    <div class="s-12 padding-2x background-dark">
+      <a href="contact.html" class="s-12 m-9 l-3 center button text-size-20 text-white background-red">CONTACT US</a>
+    </div>
+  </section>      
+</main>
+
+ 
+<!-- FOOTER -->
+<footer class="grid">
+  <!-- Footer - top -->
+  <!-- Image-->
+  <div class="s-12 l-3 m-row-3 margin-bottom background-image" style="background-image:url(img/Cadac\ Footer.png)"></div>
+  
+  <div class="s-12 m-9 l-3 padding-2x margin-bottom background-dark">
+     <h2 class="text-strong text-uppercase">Who We Are?</h2>
+     <p>CADAC Corporation is an IT hiring company specializing in recruitment and talent acquisition for the technology sector. It connects skilled professionals with top employers, ensuring optimal workforce solutions.</p>
+  </div>
+  
+  <div class="s-12 m-9 l-3 padding-2x margin-bottom background-dark">
+     <h2 class="text-strong text-uppercase">Where We Are?</h2>
+     <img class="full-img" src="img/cimap.png" alt=""/>
+  </div>
+  
+  <div class="s-12 m-9 l-3 padding-2x margin-bottom background-dark">
+     <h2 class="text-strong text-uppercase">Contact Us</h2>
+     <p><b class="text-primary margin-right-10">P</b>+91 7338649737</p>
+     <p><b class="text-primary margin-right-10">M</b> <a class="text-primary-hover" href="mailto:contact@sampledomain.com">cadaccorp@gmail.com</a></p>
+     <!-- <p><b class="text-primary margin-right-10">M</b> <a class="text-primary-hover" href="mailto:office@sampledomain.com">office@sampledomain.com</a></p> -->
+  </div>
+  <div class="s-12 m-9 l-3 padding-2x margin-bottom background-dark">
+     <h2 class="text-strong text-uppercase">Quick Links</h2>
+     <p><b class="text-primary margin-right-10"></b><a class="text-primary-hover" href="pp.html">Privacy Policy</a></p>
+     <p><b class="text-primary margin-right-10"></b><a class="text-primary-hover" href="csp.html">Cyber Security Policy</a></p>
+     <p><b class="text-primary margin-right-10"></b><a class="text-primary-hover" href="">Media/Press Center</a></p>
+  </div>
+  
+  <!-- Footer - bottom -->
+  <div class="s-12 text-center margin-bottom">
+    <p class="text-size-12">Copyright 2024, CADAC Corporation</p>
+    <!-- <p class="text-size-12">All images have been purchased from Bigstock. Do not use the images in your website.</p>
+    <p><a class="text-size-12 text-primary-hover" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding by Responsee Team</a></p> -->
+  </div>
+</footer>                                                                    
+<script type="text/javascript" src="js/responsee.js"></script>
+<script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+<script type="text/javascript" src="js/template-scripts.js"></script>
+
+</body>
+</html>
